@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro e Inicio de Sesión</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Formulario de Registro -->
+    <form id="registerForm">
+      <h2>Registro</h2>
+      <input type="text" id="registerUsername" placeholder="Nombre de usuario" required>
+      <input type="password" id="registerPassword" placeholder="Contraseña" required>
+      <button type="button" onclick="register()">Registrarse</button>
+    </form>
+
+    <!-- Formulario de Inicio de Sesión -->
+    <form id="loginForm">
+      <h2>Iniciar Sesión</h2>
+      <input type="text" id="loginUsername" placeholder="Nombre de usuario" required>
+      <input type="password" id="loginPassword" placeholder="Contraseña" required>
+      <button type="button" onclick="login()">Iniciar Sesión</button>
+    </form>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>
